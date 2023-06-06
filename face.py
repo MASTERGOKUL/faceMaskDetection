@@ -15,6 +15,8 @@ bw_threshold = 80
 weared_mask = "Thank You for wearing a mask"
 not_weared_mask = "Please wear a mask to defeat Corona"
 
+st.title("Face Mask Detector 😷")
+
 # Upload image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
